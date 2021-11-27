@@ -7,9 +7,9 @@ import 'package:recaptcha/recapchapage.dart';
 void main() {
   ScriptElement scr = ScriptElement();
   // ignore: cascade_invocations
-  scr.src = 'https://www.google.com/recaptcha/api.js?render=6LdW_d8aAAAAAKVYPB15ParsKxgqQ-UCooWHaWdq';
+  scr.src = 'https://www.google.com/recaptcha/api.js?render={'your key'}';
   
-  // 隱藏grecaptcha標誌
+  // hide grecaptcha icon
   StyleElement sty = StyleElement();
   // ignore: cascade_invocations
   sty.innerHtml = ".grecaptcha-badge {display: none !important;}";
